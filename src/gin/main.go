@@ -22,7 +22,7 @@ var err error
 
 func dbConnect() string {
 	id := "root"
-	password := "enghks1@"
+	password := "password"
 	host := "10.113.253.152:13306"
 	dbname := "test"
 	dbcon := id + ":" + password + "@tcp(" + host + ")/" + dbname
